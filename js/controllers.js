@@ -10,7 +10,7 @@ myApp.controllers = {
   tabbarPage: function(page) {
     // Set button functionality to open/close the menu.
     page.querySelector('[component="button/menu"]').onclick = function() {
-      document.querySelector('#mySplitter').toggleLeft();
+      document.querySelector('#mySplitter').left.toggle();
     };
 
     // Set button functionality to push 'new_task.html' page.
